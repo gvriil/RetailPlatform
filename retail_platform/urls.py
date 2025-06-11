@@ -27,7 +27,7 @@ schema_view = get_schema_view(
         description="API documentation for Retail Platform",
     ),
     public=True,
-    permission_classes=[permissions.IsAuthenticated],
+    permission_classes=[permissions.AllowAny],  # Change this line from IsAuthenticated to AllowAny
 )
 
 urlpatterns = [
