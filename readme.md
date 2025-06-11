@@ -1,4 +1,4 @@
-# Network Management System
+# RetailPlatform
 
 ## Описание проекта
 
@@ -6,7 +6,7 @@
 
 ## Технологии
 
-- Python 3.8+
+- Python 3.12+
 - Django 4.x
 - Django REST Framework
 - PostgreSQL
@@ -18,7 +18,7 @@
 
 ```bash
 git clone git@github.com:gvriil/RetailPlatform.git
-cd network-management
+cd RetailPlatform
 ```
 
 ### Настройка виртуального окружения
