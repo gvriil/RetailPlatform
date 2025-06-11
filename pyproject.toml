@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "retailplatform"
+version = "0.1.0"
+description = "Retail Platform Network Management System"
+authors = ["gvriil <0020992@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"  # Updated to match flake8's requirement
+django = "^4.0.0"
+djangorestframework = "^3.14.0"
+django-filter = "^23.0"
+psycopg2-binary = "^2.9.5"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
